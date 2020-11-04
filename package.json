@@ -11,7 +11,8 @@
     "build": "heroku container:push whatsspam -a spam-whatsapp && heroku container:release whatsspam -a spam-whatsapp"
   },
   "dependencies": {
-    "@open-wa/wa-automate": "^3.0.12"
+    "@open-wa/wa-automate": "^3.0.12",
+    "dotenv": "^8.2.0"
   },
   "devDependencies": {
     "nodemon": "^2.0.6"
