@@ -1,0 +1,19 @@
+{
+  "name": "whatsappSpamBot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/NtkArt/whatsappSpamBot.git",
+  "author": "Arthur Carneiro <arthur.carneirontk@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node ./script.js",
+    "dev": "nodemon ./script.js",
+    "build": "heroku container:push whatsspam -a spam-whatsapp && heroku container:release whatsspam -a spam-whatsapp"
+  },
+  "dependencies": {
+    "@open-wa/wa-automate": "^3.0.12"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
