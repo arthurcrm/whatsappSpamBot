@@ -1,0 +1,2 @@
+# whatsappSpamBot
+Just for fun.
