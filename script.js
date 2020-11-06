@@ -3,7 +3,7 @@ require("dotenv").config();
 const wa = require("@open-wa/wa-automate");
 wa.create().then((client) => start(client));
 
-
+ 
 function contains(target, pattern) {
   var value = 0;
   pattern.forEach(function (word) {
